@@ -120,27 +120,31 @@ button:hover {
     font-size: 18px;
     margin-bottom: 50px;
 }
+
 .main-container {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 30px;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .box-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-basis: 0;
+   
 }
 
 .box {
     display: flex;
     border: 2px solid #3882F6;
-    height: 100px;
-    width: 100px;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
+    padding: 50px;
+    flex-wrap: wrap;
 }
 
 .box-container p{
